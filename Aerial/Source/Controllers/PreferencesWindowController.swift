@@ -347,12 +347,16 @@ NSOutlineViewDelegate, VideoDownloadDelegate {
     @IBAction func popupVideoFormatChange(_ sender:NSPopUpButton) {
         NSLog("index change : \(sender.indexOfSelectedItem)")
         preferences.videoFormat = sender.indexOfSelectedItem
+        preferences.synchronize()
+        
+        outlineView.reloadData()
     }
     
     @IBAction func descriptionModePopupChange(_ sender:NSPopUpButton) {
         NSLog("dindex change : \(sender.indexOfSelectedItem)")
         
         preferences.showDescriptionsMode = sender.indexOfSelectedItem
+        preferences.synchronize()
     }
     
 
@@ -807,7 +811,9 @@ NSOutlineViewDelegate, VideoDownloadDelegate {
             cacheNextVideo()
         }
         
-         NSLog("video download finished with success: \(success))")
+        preferences.synchronize()
+        outlineView.reloadData()
+        NSLog("video download finished with success: \(success))")
     }
     
     func videoDownload(_ videoDownload: VideoDownload, receivedBytes: Int, progress: Float) {
