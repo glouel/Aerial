@@ -225,6 +225,12 @@ NSOutlineViewDelegate, VideoDownloadDelegate {
         cacheStatusLabel.isEditable = false
     }
     
+    override func windowDidLoad() {
+        super.windowDidLoad()
+        // Tentative workaround for garbled icons on non retina
+        outlineView.reloadData()
+    }
+    
     // MARK: - Setup
     
     fileprivate func colorizeProjectPageLinks() {
