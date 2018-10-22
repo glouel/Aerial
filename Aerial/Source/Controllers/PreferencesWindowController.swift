@@ -360,6 +360,8 @@ NSOutlineViewDelegate {
             cacheLocation.url = nil
         }
         
+        let versionChecker = VersionChecker.sharedInstance
+        versionChecker.onlineCheck()
         //cacheStatusLabel.isEditable = false
     }
     
