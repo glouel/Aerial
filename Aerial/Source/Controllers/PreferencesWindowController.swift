@@ -162,6 +162,12 @@ class PreferencesWindowController: NSWindowController, NSOutlineViewDataSource, 
 
     @IBOutlet weak var cacheSizeTextField: NSTextField!
 
+    @IBOutlet var downloadAerialConfigButton: NSButton!
+    
+    @IBOutlet var dontShowAgainWarning: NSButton!
+    @IBOutlet var warningTabItem: NSTabViewItem!
+    
+    
     var player: AVPlayer = AVPlayer()
 
     var videos: [AerialVideo]?
@@ -235,9 +241,11 @@ class PreferencesWindowController: NSWindowController, NSOutlineViewDataSource, 
 
         if let version = Bundle(identifier: "com.johncoates.Aerial-Test")?.infoDictionary?["CFBundleShortVersionString"] as? String {
             versionLabel.stringValue = version
+            downloadAerialConfigButton.title = "Click here to download AerialConfig.app for your Aerial version (" + version + ")"
         }
         if let version = Bundle(identifier: "com.JohnCoates.Aerial")?.infoDictionary?["CFBundleShortVersionString"] as? String {
             versionLabel.stringValue = version
+            downloadAerialConfigButton.title = "Click here to download AerialConfig.app for your Aerial version (" + version + ")"
         }
 
         // Some better icons are 10.12.2+ only
