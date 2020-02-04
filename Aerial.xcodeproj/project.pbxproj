@@ -115,6 +115,16 @@
 		03A596D923AB8F000097EA66 /* InfoLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A596D823AB8F000097EA66 /* InfoLocationView.swift */; };
 		03AD45FF22981B0C00261325 /* CustomVideoFolders+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AD45FE22981B0C00261325 /* CustomVideoFolders+helpers.swift */; };
 		03AD460022981B1C00261325 /* CustomVideoFolders+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AD45FE22981B0C00261325 /* CustomVideoFolders+helpers.swift */; };
+		03BE06CD23E9AE0B00686445 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BE06AE23E9AD2E00686445 /* Sparkle.framework */; };
+		03BE06CE23E9AE0B00686445 /* Sparkle.framework in Embed Sparkle Framework */ = {isa = PBXBuildFile; fileRef = 03BE06AE23E9AD2E00686445 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03BE06D023E9AE1200686445 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BE06AE23E9AD2E00686445 /* Sparkle.framework */; };
+		03BE06D123E9AE1200686445 /* Sparkle.framework in Embed Sparkle Framework */ = {isa = PBXBuildFile; fileRef = 03BE06AE23E9AD2E00686445 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03BE06E123E9B70B00686445 /* org.sparkle-project.InstallerConnection.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B623E9AD2E00686445 /* org.sparkle-project.InstallerConnection.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BE06E223E9B70B00686445 /* org.sparkle-project.InstallerLauncher.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B423E9AD2E00686445 /* org.sparkle-project.InstallerLauncher.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BE06E323E9B70B00686445 /* org.sparkle-project.InstallerStatus.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B823E9AD2E00686445 /* org.sparkle-project.InstallerStatus.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BE06E523E9B8DF00686445 /* org.sparkle-project.InstallerConnection.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B623E9AD2E00686445 /* org.sparkle-project.InstallerConnection.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BE06E623E9B8DF00686445 /* org.sparkle-project.InstallerLauncher.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B423E9AD2E00686445 /* org.sparkle-project.InstallerLauncher.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BE06E723E9B8DF00686445 /* org.sparkle-project.InstallerStatus.xpc in Embed Sparkle XPC Services */ = {isa = PBXBuildFile; fileRef = 03BE06B823E9AD2E00686445 /* org.sparkle-project.InstallerStatus.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		03BF51BA23A24B40008AD373 /* AnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306336D23A15FA900046A59 /* AnimationLayer.swift */; };
 		03BF51BC23A2643C008AD373 /* LayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF51BB23A2643C008AD373 /* LayerManager.swift */; };
 		03BF51BD23A26522008AD373 /* LayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF51BB23A2643C008AD373 /* LayerManager.swift */; };
@@ -154,9 +164,6 @@
 		03E8731121662AEB002B469B /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8730E216501ED002B469B /* AsynchronousOperation.swift */; };
 		03E8731321675FE0002B469B /* TimeManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8731221675FE0002B469B /* TimeManagement.swift */; };
 		03E87314216760B7002B469B /* TimeManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8731221675FE0002B469B /* TimeManagement.swift */; };
-		1CE1414C7F559B453E61831F /* Pods_AerialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0922E026F9FAC43AF7A569 /* Pods_AerialApp.framework */; };
-		42813D561DB8096CC34CB535 /* Pods_Aerial_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7FC91C9058F0A22FBCC762 /* Pods_Aerial_Tests.framework */; };
-		70CA722D8D5D59C803F3B81B /* Pods_Aerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C010F2542FCE112D8A6E5CA /* Pods_Aerial.framework */; };
 		AA7E2E5E1FC62E8B00E5F320 /* AerialPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E2E5D1FC62E8B00E5F320 /* AerialPlayerItem.swift */; };
 		F00864B423AAE7F0003210EF /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00864B323AAE7F0003210EF /* DarkMode.swift */; };
 		F00864B523AAE7F0003210EF /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00864B323AAE7F0003210EF /* DarkMode.swift */; };
@@ -198,6 +205,160 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		03BE06AD23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Sparkle;
+		};
+		03BE06AF23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 72A5D59C1D6927730009E5AC;
+			remoteInfo = SparkleCore;
+		};
+		03BE06B123E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 72B398D21D3D879300EE297F;
+			remoteInfo = Autoupdate;
+		};
+		03BE06B323E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 726E07AD1CAF08D6001A286B;
+			remoteInfo = SparkleInstallerLauncher;
+		};
+		03BE06B523E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 724BB36C1D31D0B7005D534A;
+			remoteInfo = SparkleInstallerConnection;
+		};
+		03BE06B723E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 724BB3931D333832005D534A;
+			remoteInfo = SparkleInstallerStatus;
+		};
+		03BE06B923E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 726E07EF1CAF37BD001A286B;
+			remoteInfo = SparkleDownloader;
+		};
+		03BE06BB23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
+			remoteInfo = "Sparkle Test App";
+		};
+		03BE06BD23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 726E4A161C86C88F00C57C6A;
+			remoteInfo = TestAppHelper;
+		};
+		03BE06BF23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 612279D90DB5470200AB99EA;
+			remoteInfo = "Sparkle Unit Tests";
+		};
+		03BE06C123E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D06E8D00FD68C7C005AE3F6;
+			remoteInfo = BinaryDelta;
+		};
+		03BE06C323E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 72D9549E1CBB415B006F28BD;
+			remoteInfo = "sparkle-cli";
+		};
+		03BE06C523E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 721C24451CB753E6005440CB;
+			remoteInfo = "Installer Progress";
+		};
+		03BE06C723E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 726B2B5D1C645FC900388755;
+			remoteInfo = "UI Tests";
+		};
+		03BE06C923E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7205C43E1E13049400E370AE;
+			remoteInfo = generate_appcast;
+		};
+		03BE06CB23E9AD2E00686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA1E280F22B64522004AA304;
+			remoteInfo = bsdiff;
+		};
+		03BE06D323E9B62900686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BB36B1D31D0B7005D534A;
+			remoteInfo = SparkleInstallerConnection;
+		};
+		03BE06D523E9B62900686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 726E07AC1CAF08D6001A286B;
+			remoteInfo = SparkleInstallerLauncher;
+		};
+		03BE06D723E9B62900686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BB3921D333832005D534A;
+			remoteInfo = SparkleInstallerStatus;
+		};
+		03BE06DA23E9B6C300686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BB36B1D31D0B7005D534A;
+			remoteInfo = SparkleInstallerConnection;
+		};
+		03BE06DC23E9B6C300686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 726E07AC1CAF08D6001A286B;
+			remoteInfo = SparkleInstallerLauncher;
+		};
+		03BE06DE23E9B6C300686445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BB3921D333832005D534A;
+			remoteInfo = SparkleInstallerStatus;
+		};
 		FA7199731D94EC5A00FBC99B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FACAF19C1BD9FC6000E539DC /* Project object */;
@@ -206,6 +367,57 @@
 			remoteInfo = "Aerial App";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03BE06CF23E9AE0B00686445 /* Embed Sparkle Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03BE06CE23E9AE0B00686445 /* Sparkle.framework in Embed Sparkle Framework */,
+			);
+			name = "Embed Sparkle Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BE06D223E9AE1200686445 /* Embed Sparkle Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03BE06D123E9AE1200686445 /* Sparkle.framework in Embed Sparkle Framework */,
+			);
+			name = "Embed Sparkle Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BE06D923E9B6A000686445 /* Embed Sparkle XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				03BE06E123E9B70B00686445 /* org.sparkle-project.InstallerConnection.xpc in Embed Sparkle XPC Services */,
+				03BE06E223E9B70B00686445 /* org.sparkle-project.InstallerLauncher.xpc in Embed Sparkle XPC Services */,
+				03BE06E323E9B70B00686445 /* org.sparkle-project.InstallerStatus.xpc in Embed Sparkle XPC Services */,
+			);
+			name = "Embed Sparkle XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BE06E023E9B6C700686445 /* Embed Sparkle XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				03BE06E523E9B8DF00686445 /* org.sparkle-project.InstallerConnection.xpc in Embed Sparkle XPC Services */,
+				03BE06E623E9B8DF00686445 /* org.sparkle-project.InstallerLauncher.xpc in Embed Sparkle XPC Services */,
+				03BE06E723E9B8DF00686445 /* org.sparkle-project.InstallerStatus.xpc in Embed Sparkle XPC Services */,
+			);
+			name = "Embed Sparkle XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0306336723A1012200046A59 /* LocationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLayer.swift; sourceTree = "<group>"; };
@@ -262,6 +474,7 @@
 		03A596D423AA752F0097EA66 /* InfoClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoClockView.swift; sourceTree = "<group>"; };
 		03A596D823AB8F000097EA66 /* InfoLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLocationView.swift; sourceTree = "<group>"; };
 		03AD45FE22981B0C00261325 /* CustomVideoFolders+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomVideoFolders+helpers.swift"; sourceTree = "<group>"; };
+		03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = Extern/Sparkle/Sparkle.xcodeproj; sourceTree = "<group>"; };
 		03BF51BB23A2643C008AD373 /* LayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerManager.swift; sourceTree = "<group>"; };
 		03BF51BE23A274CA008AD373 /* MessageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLayer.swift; sourceTree = "<group>"; };
 		03BF51C123A2978B008AD373 /* ClockLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockLayer.swift; sourceTree = "<group>"; };
@@ -286,19 +499,10 @@
 		03E8730B2165013C002B469B /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		03E8730E216501ED002B469B /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
 		03E8731221675FE0002B469B /* TimeManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagement.swift; sourceTree = "<group>"; };
-		0C8FC8BFBDB12119C417B384 /* Pods-AerialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AerialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AerialApp/Pods-AerialApp.debug.xcconfig"; sourceTree = "<group>"; };
-		16D0EAF0612223CDB1E938A3 /* Pods-Aerial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aerial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aerial/Pods-Aerial.debug.xcconfig"; sourceTree = "<group>"; };
-		431164E9C62B702ED573DE22 /* Pods-Aerial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aerial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aerial/Pods-Aerial.release.xcconfig"; sourceTree = "<group>"; };
-		6F861C9769B40A0B8FBDC0E6 /* Pods-Aerial Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aerial Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aerial Tests/Pods-Aerial Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E7FC91C9058F0A22FBCC762 /* Pods_Aerial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aerial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C010F2542FCE112D8A6E5CA /* Pods_Aerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aerial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7E2E5D1FC62E8B00E5F320 /* AerialPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerialPlayerItem.swift; sourceTree = "<group>"; };
-		C2789CB51C64430F9CDEABF1 /* Pods-Aerial Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aerial Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aerial Tests/Pods-Aerial Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E783122BE370B662D207D98F /* Pods-AerialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AerialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AerialApp/Pods-AerialApp.release.xcconfig"; sourceTree = "<group>"; };
 		F00864B323AAE7F0003210EF /* DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		F00864B623AAE8E9003210EF /* NightShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShift.swift; sourceTree = "<group>"; };
 		F008DAFC23AADCFB00739DE1 /* Brightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brightness.swift; sourceTree = "<group>"; };
-		FA0922E026F9FAC43AF7A569 /* Pods_AerialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AerialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA143CD61BDA3E880041A82B /* AerialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AerialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA143CE51BDA3EEF0041A82B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		FA36BD3E1BE57F8E00D5E03B /* VideoDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VideoDownload.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -333,7 +537,7 @@
 				03510C772185EF8F008F74F2 /* CoreLocation.framework in Frameworks */,
 				03510C6B21834EB2008F74F2 /* IOKit.framework in Frameworks */,
 				FA143CE61BDA3EEF0041A82B /* AVKit.framework in Frameworks */,
-				1CE1414C7F559B453E61831F /* Pods_AerialApp.framework in Frameworks */,
+				03BE06D023E9AE1200686445 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +545,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42813D561DB8096CC34CB535 /* Pods_Aerial_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +553,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03510C732185EF76008F74F2 /* CoreLocation.framework in Frameworks */,
+				03BE06CD23E9AE0B00686445 /* Sparkle.framework in Frameworks */,
 				03510C6C21834EFF008F74F2 /* IOKit.framework in Frameworks */,
-				70CA722D8D5D59C803F3B81B /* Pods_Aerial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +648,29 @@
 			path = Time;
 			sourceTree = "<group>";
 		};
+		03BE069823E9AD2D00686445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BE06AE23E9AD2E00686445 /* Sparkle.framework */,
+				03BE06B023E9AD2E00686445 /* SparkleCore.framework */,
+				03BE06B223E9AD2E00686445 /* Autoupdate */,
+				03BE06B423E9AD2E00686445 /* org.sparkle-project.InstallerLauncher.xpc */,
+				03BE06B623E9AD2E00686445 /* org.sparkle-project.InstallerConnection.xpc */,
+				03BE06B823E9AD2E00686445 /* org.sparkle-project.InstallerStatus.xpc */,
+				03BE06BA23E9AD2E00686445 /* org.sparkle-project.Downloader.xpc */,
+				03BE06BC23E9AD2E00686445 /* Sparkle Test App.app */,
+				03BE06BE23E9AD2E00686445 /* TestAppHelper.xpc */,
+				03BE06C023E9AD2E00686445 /* Sparkle Unit Tests.xctest */,
+				03BE06C223E9AD2E00686445 /* BinaryDelta */,
+				03BE06C423E9AD2E00686445 /* sparkle.app */,
+				03BE06C623E9AD2E00686445 /* Updater.app */,
+				03BE06C823E9AD2E00686445 /* UI Tests.xctest */,
+				03BE06CA23E9AD2E00686445 /* generate_appcast */,
+				03BE06CC23E9AD2E00686445 /* libbsdiff.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		03D1E78D22848F6D00D10CF7 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,28 +718,13 @@
 			path = Hardware;
 			sourceTree = "<group>";
 		};
-		F1B1238D786BBB1C50CB8803 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16D0EAF0612223CDB1E938A3 /* Pods-Aerial.debug.xcconfig */,
-				431164E9C62B702ED573DE22 /* Pods-Aerial.release.xcconfig */,
-				6F861C9769B40A0B8FBDC0E6 /* Pods-Aerial Tests.debug.xcconfig */,
-				C2789CB51C64430F9CDEABF1 /* Pods-Aerial Tests.release.xcconfig */,
-				0C8FC8BFBDB12119C417B384 /* Pods-AerialApp.debug.xcconfig */,
-				E783122BE370B662D207D98F /* Pods-AerialApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		FA2D7AA01BDD849E009EA54C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */,
 				03510C722185EF76008F74F2 /* CoreLocation.framework */,
 				03510C6A21834EB2008F74F2 /* IOKit.framework */,
 				FA143CE51BDA3EEF0041A82B /* AVKit.framework */,
-				8C010F2542FCE112D8A6E5CA /* Pods_Aerial.framework */,
-				7E7FC91C9058F0A22FBCC762 /* Pods_Aerial_Tests.framework */,
-				FA0922E026F9FAC43AF7A569 /* Pods_AerialApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -651,7 +862,6 @@
 				FA71996F1D94EC5A00FBC99B /* Tests */,
 				FA2D7AA01BDD849E009EA54C /* Frameworks */,
 				FACAF1A61BD9FC6000E539DC /* Products */,
-				F1B1238D786BBB1C50CB8803 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -683,16 +893,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA143CE01BDA3E880041A82B /* Build configuration list for PBXNativeTarget "AerialApp" */;
 			buildPhases = (
-				B326E4EB5930FD08EEA5D212 /* [CP] Check Pods Manifest.lock */,
 				FA74B8481D94DCE0004FE056 /* Run Script - Swiftlint */,
 				FA143CD21BDA3E880041A82B /* Sources */,
 				FA143CD31BDA3E880041A82B /* Frameworks */,
 				FA143CD41BDA3E880041A82B /* Resources */,
-				6F6791269A5D5F62796AE75A /* [CP] Embed Pods Frameworks */,
+				03BE06D223E9AE1200686445 /* Embed Sparkle Framework */,
+				03BE06D923E9B6A000686445 /* Embed Sparkle XPC Services */,
+				03BE06E423E9B7A000686445 /* Codesign Sparkle */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				03BE06D423E9B62900686445 /* PBXTargetDependency */,
+				03BE06D623E9B62900686445 /* PBXTargetDependency */,
+				03BE06D823E9B62900686445 /* PBXTargetDependency */,
 			);
 			name = AerialApp;
 			productName = "Aerial Test";
@@ -703,7 +917,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7199751D94EC5A00FBC99B /* Build configuration list for PBXNativeTarget "Aerial Tests" */;
 			buildPhases = (
-				3B10443BE2EC7A75E1F031DF /* [CP] Check Pods Manifest.lock */,
 				FA71996A1D94EC5A00FBC99B /* Sources */,
 				FA71996B1D94EC5A00FBC99B /* Frameworks */,
 				FA71996C1D94EC5A00FBC99B /* Resources */,
@@ -722,18 +935,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FACAF1AF1BD9FC6000E539DC /* Build configuration list for PBXNativeTarget "Aerial" */;
 			buildPhases = (
-				910394578D35CCEBAEE0D456 /* [CP] Check Pods Manifest.lock */,
 				7E9B50FB2187D302002895ED /* Run Script - Swiftlint */,
 				FACAF1A01BD9FC6000E539DC /* Sources */,
 				FACAF1A11BD9FC6000E539DC /* Frameworks */,
 				FACAF1A21BD9FC6000E539DC /* Headers */,
 				FACAF1A31BD9FC6000E539DC /* Resources */,
-				030E8CFC21C2CC13008272B9 /* [CP] Embed Pods Frameworks */,
-				038EF1B623E86DCA00E9D379 /* ShellScript */,
+				03BE06CF23E9AE0B00686445 /* Embed Sparkle Framework */,
+				03BE06E023E9B6C700686445 /* Embed Sparkle XPC Services */,
+				03BE06E923E9B8F300686445 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				03BE06DB23E9B6C300686445 /* PBXTargetDependency */,
+				03BE06DD23E9B6C300686445 /* PBXTargetDependency */,
+				03BE06DF23E9B6C300686445 /* PBXTargetDependency */,
 			);
 			name = Aerial;
 			productName = Aerial;
@@ -781,6 +997,12 @@
 			mainGroup = FACAF19B1BD9FC6000E539DC;
 			productRefGroup = FACAF1A61BD9FC6000E539DC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 03BE069823E9AD2D00686445 /* Products */;
+					ProjectRef = 03BE069723E9AD2D00686445 /* Sparkle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FACAF1A41BD9FC6000E539DC /* Aerial */,
@@ -789,6 +1011,121 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		03BE06AE23E9AD2E00686445 /* Sparkle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Sparkle.framework;
+			remoteRef = 03BE06AD23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06B023E9AD2E00686445 /* SparkleCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SparkleCore.framework;
+			remoteRef = 03BE06AF23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06B223E9AD2E00686445 /* Autoupdate */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Autoupdate;
+			remoteRef = 03BE06B123E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06B423E9AD2E00686445 /* org.sparkle-project.InstallerLauncher.xpc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.xpc-service";
+			path = "org.sparkle-project.InstallerLauncher.xpc";
+			remoteRef = 03BE06B323E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06B623E9AD2E00686445 /* org.sparkle-project.InstallerConnection.xpc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.xpc-service";
+			path = "org.sparkle-project.InstallerConnection.xpc";
+			remoteRef = 03BE06B523E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06B823E9AD2E00686445 /* org.sparkle-project.InstallerStatus.xpc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.xpc-service";
+			path = "org.sparkle-project.InstallerStatus.xpc";
+			remoteRef = 03BE06B723E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06BA23E9AD2E00686445 /* org.sparkle-project.Downloader.xpc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.xpc-service";
+			path = "org.sparkle-project.Downloader.xpc";
+			remoteRef = 03BE06B923E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06BC23E9AD2E00686445 /* Sparkle Test App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Sparkle Test App.app";
+			remoteRef = 03BE06BB23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06BE23E9AD2E00686445 /* TestAppHelper.xpc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.xpc-service";
+			path = TestAppHelper.xpc;
+			remoteRef = 03BE06BD23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06C023E9AD2E00686445 /* Sparkle Unit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Sparkle Unit Tests.xctest";
+			remoteRef = 03BE06BF23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06C223E9AD2E00686445 /* BinaryDelta */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = BinaryDelta;
+			remoteRef = 03BE06C123E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06C423E9AD2E00686445 /* sparkle.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = sparkle.app;
+			remoteRef = 03BE06C323E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06C623E9AD2E00686445 /* Updater.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Updater.app;
+			remoteRef = 03BE06C523E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06C823E9AD2E00686445 /* UI Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UI Tests.xctest";
+			remoteRef = 03BE06C723E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06CA23E9AD2E00686445 /* generate_appcast */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = generate_appcast;
+			remoteRef = 03BE06C923E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03BE06CC23E9AD2E00686445 /* libbsdiff.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbsdiff.a;
+			remoteRef = 03BE06CB23E9AD2E00686445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA143CD41BDA3E880041A82B /* Resources */ = {
@@ -870,7 +1207,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		030E8CFC21C2CC13008272B9 /* [CP] Embed Pods Frameworks */ = {
+		03BE06E423E9B7A000686445 /* Codesign Sparkle */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -878,22 +1215,17 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Aerial/Pods-Aerial-frameworks.sh",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Codesign Sparkle";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/Pods/Target Support Files/Pods-Aerial/Pods-Aerial-frameworks.sh\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Shorthand for the script\nalias dosign=\"${PROJECT_DIR}/Extern/Sparkle/bin/codesign_embedded_executable\"\n\n# Code Signing identity\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\n\n# Shorthand for the Sparkle.framework\nSPARKLE_PATH=${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework\n\ndosign \"$IDENTITY\" \"${BUILT_PRODUCTS_DIR}/${XPCSERVICES_FOLDER_PATH}\"/org.sparkle-project.*.xpc\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}/Versions/A/Resources/Autoupdate\"\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}/Versions/A/Resources/Updater.app/\"\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}\"\n";
 		};
-		038EF1B623E86DCA00E9D379 /* ShellScript */ = {
+		03BE06E923E9B8F300686445 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -908,45 +1240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nLOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n  # If a code signing identity is not specified, use ad hoc signing\n  IDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
-		};
-		3B10443BE2EC7A75E1F031DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Aerial Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F6791269A5D5F62796AE75A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AerialApp/Pods-AerialApp-frameworks.sh",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AerialApp/Pods-AerialApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Shorthand for the script\nalias dosign=\"${PROJECT_DIR}/Extern/Sparkle/bin/codesign_embedded_executable\"\n\n# Code Signing identity\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\n\n# Shorthand for the Sparkle.framework\nSPARKLE_PATH=${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework\n\ndosign \"$IDENTITY\" \"${BUILT_PRODUCTS_DIR}/${XPCSERVICES_FOLDER_PATH}\"/org.sparkle-project.*.xpc\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}/Versions/A/Resources/Autoupdate\"\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}/Versions/A/Resources/Updater.app/\"\ndosign \"$IDENTITY\" \"${SPARKLE_PATH}\"\n";
 		};
 		7E9B50FB2187D302002895ED /* Run Script - Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -961,42 +1255,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#if which swiftlint >/dev/null; then\n#    if [ -z \"$CI\" ]; then\n#        make --directory=${SRCROOT} xcode-lint\n#    fi\n#else\n#    echo \"warning: SwiftLint not installed, install using `brew install swiftlint`\"\n#fi\nif which swiftlint >/dev/null; then\n    swiftlint autocorrect\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		910394578D35CCEBAEE0D456 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Aerial-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B326E4EB5930FD08EEA5D212 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AerialApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		FA74B8481D94DCE0004FE056 /* Run Script - Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1163,6 +1421,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		03BE06D423E9B62900686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerConnection;
+			targetProxy = 03BE06D323E9B62900686445 /* PBXContainerItemProxy */;
+		};
+		03BE06D623E9B62900686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerLauncher;
+			targetProxy = 03BE06D523E9B62900686445 /* PBXContainerItemProxy */;
+		};
+		03BE06D823E9B62900686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerStatus;
+			targetProxy = 03BE06D723E9B62900686445 /* PBXContainerItemProxy */;
+		};
+		03BE06DB23E9B6C300686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerConnection;
+			targetProxy = 03BE06DA23E9B6C300686445 /* PBXContainerItemProxy */;
+		};
+		03BE06DD23E9B6C300686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerLauncher;
+			targetProxy = 03BE06DC23E9B6C300686445 /* PBXContainerItemProxy */;
+		};
+		03BE06DF23E9B6C300686445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparkleInstallerStatus;
+			targetProxy = 03BE06DE23E9B6C300686445 /* PBXContainerItemProxy */;
+		};
 		FA7199741D94EC5A00FBC99B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA143CD51BDA3E880041A82B /* AerialApp */;
@@ -1184,7 +1472,6 @@
 /* Begin XCBuildConfiguration section */
 		FA143CE11BDA3E880041A82B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C8FC8BFBDB12119C417B384 /* Pods-AerialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1207,7 +1494,6 @@
 		};
 		FA143CE21BDA3E880041A82B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E783122BE370B662D207D98F /* Pods-AerialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1230,7 +1516,6 @@
 		};
 		FA7199761D94EC5A00FBC99B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F861C9769B40A0B8FBDC0E6 /* Pods-Aerial Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1252,7 +1537,6 @@
 		};
 		FA7199771D94EC5A00FBC99B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2789CB51C64430F9CDEABF1 /* Pods-Aerial Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1377,7 +1661,6 @@
 		};
 		FACAF1B01BD9FC6000E539DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D0EAF0612223CDB1E938A3 /* Pods-Aerial.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -1406,7 +1689,6 @@
 		};
 		FACAF1B11BD9FC6000E539DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431164E9C62B702ED573DE22 /* Pods-Aerial.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;

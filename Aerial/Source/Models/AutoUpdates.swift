@@ -45,7 +45,8 @@ struct AutoUpdates {
                         // Then force check/install udpates
                         debugLog("Checking for update (forced mode)")
                         suu.resetUpdateCycle()
-                        suu.installUpdatesIfAvailable()
+                        // TODOSPARKLE
+                        //suu.installUpdatesIfAvailable()
                     }
                 }
             }
