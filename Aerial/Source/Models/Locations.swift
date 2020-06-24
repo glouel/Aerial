@@ -35,20 +35,21 @@ class Locations: NSObject {
         // Check for access & start
         if CLLocationManager.locationServicesEnabled() {
             debugLog("Location services enabled")
+
+            // Add our callbacks, as this is the only time we'll really defer
+            failures.append(failure)
+            successes.append(success)
+
             locationManager.startUpdatingLocation()
         } else {
             failure("Location services disabled")
         }
 
         if #available(OSX 10.14, *) {
-            // Add our callbacks, as this is the only time we'll really defer
-            failures.append(failure)
-            successes.append(success)
-
             locationManager.requestLocation()
         } else {
             // Fallback on earlier versions
-            failure("macOS 10.14 is required")
+            // failure("macOS 10.14 is required")
         }
     }
 }
@@ -73,6 +74,7 @@ extension Locations: CLLocationManagerDelegate {
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        debugLog("Location failure \(error.localizedDescription)")
         for failure in failures {
             failure("Unable to fetch location")
         }
